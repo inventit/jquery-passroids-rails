@@ -8,9 +8,12 @@ Unfortunately, Passroids is not maintained any more. This gem provides `jquery.p
 
 ## Installation
 
+`jquery.passroids.js` provided by this gem is depends on `jquery.textchange.js`. You can install `jquery.textchange.js` by installing [jquery-textchange-rails](https://github.com/inventit/jquery-textchange-rails).
+
 Add this line to your application's Gemfile:
 
 ```ruby
+gem 'jquery-textchange-rails', git: 'https://github.com/inventit/jquery-textchange-rails.git'
 gem 'jquery-passroids-rails'
 ```
 

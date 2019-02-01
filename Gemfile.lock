@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jquery-passroids-rails (0.1.0)
+    jquery-passroids-rails (1.0.1)
       railties
 
 GEM
