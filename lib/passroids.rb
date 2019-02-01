@@ -1,4 +1,3 @@
-# -*- encoding : utf-8 -*-
 class Passroids
   #
   # Level of strength 
@@ -10,7 +9,7 @@ class Passroids
   # To use password strength meter and match verifier.
   # Implementation from jQuery Passroids.
   # * @param String v password
-  # * @return Integer Socre of password.
+  # * @return Integer Score of password.
   #
   def self.test(v)
     s = 0
