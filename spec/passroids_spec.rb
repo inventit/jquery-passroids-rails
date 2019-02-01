@@ -61,17 +61,5 @@ RSpec.describe Passroids do
         end
       end
     end
-
-    context "4 <= password length < 8" do
-      it "must be tested"
-    end
-
-    context "8 <= password length < 16" do
-      it "must be tested"
-    end
-
-    context "16 <= password length" do
-      it "must be tested"
-    end
   end
 end
