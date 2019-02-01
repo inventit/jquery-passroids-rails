@@ -2,6 +2,8 @@
 
 [Passroids](http://plugins.jquery.com/project/PassRoids) for Rails.
 
+<a href="https://travis-ci.org/inventit/jquery-passroids-rails"><img src="https://travis-ci.org/inventit/jquery-passroids-rails.svg?branch=master" alt="Build Status" /></a>
+
 Unfortunately, Passroids is not maintained any more. This gem provides `jquery.passroids.js` and the ruby implementation. `jquery.passroids.js` is latest version, probably.
 
 ## Installation
