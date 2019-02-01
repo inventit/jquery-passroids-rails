@@ -33,6 +33,23 @@ $('form').passroids({
 });
 ```
 
+### Ruby
+
+```ruby
+Passroids.strength('hoge') # => "Weak"
+```
+
+## Runnint tests
+
+### Javascript
+
+No tests.
+
+### Ruby
+
+1. Install all dependencies with `bundle install`.
+1. Run `bundle exec rspec`.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jquery-passroids-rails.
