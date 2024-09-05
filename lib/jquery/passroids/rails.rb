@@ -1,10 +1,10 @@
-require "jquery/passroids/rails/version"
+require 'jquery/passroids/rails/version'
+require 'passroids'
 
 module Jquery
   module Passroids
     module Rails
       class Engine < ::Rails::Engine
-        config.eager_load_paths << "#{self.root}/lib"
       end
     end
   end
