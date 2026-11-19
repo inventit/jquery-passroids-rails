@@ -152,7 +152,7 @@ jQuery.fn.passroids = function(o) {
       });
 
         // Check password strength ~~~~~~~~~~~~~~~~~~~~~
-      jQuery(o.main).bind("textchange", function(e) {
+      jQuery(o.main).bind("input", function(e) {
         if(jQuery(this.form).data("submited") === true || e.keyCode == 13){
           return false;
         }
